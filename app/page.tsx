@@ -11,7 +11,7 @@ const projects = [
     label: "FEATURED BUILD",
     color: "sun",
     description:
-      "An AI workspace that takes a creator from first idea to an organised publishing plan. Mobile Preview under progress*",
+      "An AI workspace that takes a creator from first idea to an organised publishing plan.    Mobile Preview under progress*",
     details: [
       "Next.js + TypeScript",
       "Supabase auth & database",
