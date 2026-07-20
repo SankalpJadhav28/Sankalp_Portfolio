@@ -43,6 +43,7 @@ const projects = [
       "A practical billing system built around the kind of clear, reliable workflows real teams need.",
     details: ["JavaScript", "Product-minded UI", "Data-focused workflows"],
     repo: "https://github.com/SankalpJadhav28/ISP-Billing",
+    live: "https://sai-samarth-internet-service.web.app/",
   },
 ];
 
