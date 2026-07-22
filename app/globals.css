@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap');
+/* Keep desktop columns compact and let the formal portrait occupy its own track. */
+@media(min-width:721px){.hero-new{gap:20px!important}.statement-grid{grid-template-columns:1.1fr .8fr minmax(180px,.42fr)!important;gap:4vw!important;align-items:end!important}.statement-portrait{position:relative!important;left:auto!important;bottom:auto!important;width:100%!important;max-width:260px!important;justify-self:end!important;align-self:end!important}.campus-grid{gap:6vw!important}.skills-layout{gap:6vw!important}}
+.statement-actions{display:flex;flex-wrap:wrap;gap:18px;align-items:center}.resume-link{display:inline-block;margin-top:18px;background:var(--ink);color:var(--cream);padding:10px 12px;font:10px "DM Mono";letter-spacing:.03em;transition:.2s}.resume-link:hover{background:var(--blue)}
+@media(max-width:720px){.statement-actions{gap:16px}.statement-portrait{margin:3px 0 0 auto}}
 @tailwind base;@tailwind components;@tailwind utilities;
 section.statement{position:relative}
 .statement-portrait{position:absolute;z-index:2;width:clamp(180px,20vw,290px);aspect-ratio:.78;left:45%;bottom:5vw;margin:0;border:8px solid var(--cream);box-shadow:12px 12px 0 var(--blue);overflow:hidden;transform:rotate(4deg)}.statement-portrait img{object-fit:cover;object-position:53% 26%}.statement-portrait figcaption{position:absolute;bottom:0;left:0;right:0;padding:7px;background:var(--ink);color:var(--cream);font:8px "DM Mono";letter-spacing:.05em}.statement-dot{position:absolute;left:55%;top:20%;font:clamp(45px,6vw,90px) "Playfair Display";color:var(--orange);transform:rotate(-16deg)}

@@ -278,20 +278,30 @@ export default function Home() {
               integration. I&apos;m especially drawn to tools that make an
               everyday process feel lighter.
             </p>
-            <a className="text-link" href="#work">
-              SEE THE RECEIPTS <i>→</i>
-            </a>
+            <div className="statement-actions">
+              <a className="text-link" href="#work">
+                SEE THE RECEIPTS <i>→</i>
+              </a>
+              <a
+                className="resume-link"
+                href="/resume/Sankalp-Jadhav-Resume.pdf"
+                target="_blank"
+                rel="noreferrer"
+              >
+                VIEW RESUME ↗
+              </a>
+            </div>
           </div>
+          <figure className="statement-portrait">
+            <Image
+              src="/images/sankalp-formal.jpeg"
+              alt="Sankalp Jadhav in formal attire"
+              fill
+              sizes="(max-width: 720px) 180px, 260px"
+            />
+            <figcaption>DEVELOPER / EDITOR / BUILDER</figcaption>
+          </figure>
         </div>
-        <figure className="statement-portrait">
-          <Image
-            src="/images/sankalp-formal.jpeg"
-            alt="Sankalp Jadhav in formal attire"
-            fill
-            sizes="(max-width: 720px) 180px, 280px"
-          />
-          <figcaption>DEVELOPER / EDITOR / BUILDER</figcaption>
-        </figure>
         <div className="statement-dot">✦</div>
       </section>
       <section className="experience-new">
